@@ -4,6 +4,20 @@
 	<meta charset="UTF-8">
 	<title>Tablero</title>
 	<link rel="stylesheet" href="style.css">
+	<style>
+		table 
+		{
+			background: black;
+			height: 400px;
+			width: 400px;
+		}
+/*odd = pares / even igual impares d*/
+		tr:nth-child(odd) td:nth-child(even),
+		tr:nth-child(even) td:nth-child(odd)
+		{
+			background: white;
+		}
+	</style>
 </head>
 
 <body>
