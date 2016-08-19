@@ -1,0 +1,15 @@
+table {
+	background: black;
+	height: 400px;
+	width: 400px;
+	position: center;
+}
+/*odd = pares / even igual impares*/
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd)
+{
+	background: white;
+}
+
+
+
